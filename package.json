@@ -22,7 +22,7 @@
     "supertest": "^0.14.0"
   },  
   "scripts": {
-    "test": "NODE_ENV=test mocha --harmony && jshint --reporter node_modules/jshint-stylish/stylish.js"
+    "test": "NODE_ENV=test mocha --harmony && jshint . --exclude-path .gitignore --reporter node_modules/jshint-stylish/stylish.js"
   },
   "keywords": [
     "koa",
