@@ -30,7 +30,7 @@
     "sass"
   ],
   "author": "Florian Albertz",
-  "license": "BSD-3",
+  "license": "BSD-3-Clause",
   "jshintConfig": {
     "node": true,
     "mocha": true,
