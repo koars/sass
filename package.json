@@ -1,0 +1,39 @@
+{
+  "name": "koars-sass",
+  "version": "1.0.0",
+  "description": "Compile sass files and serve them as middleware",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koars/sass.git"
+  },
+  "dependencies": {
+    "koars-utils": "^1.0.0",
+    "autoprefixer": "^3.1.0",
+    "node-sass": "^0.9.6",
+    "node-watch": "^0.3.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "jshint-stylish": "^1.0.0",
+    "koa": "^0.12.2",
+    "mocha": "^1.21.4",
+    "rewire": "^2.1.0",
+    "supertest": "^0.14.0"
+  },  
+  "scripts": {
+    "test": "NODE_ENV=test mocha --harmony && jshint --reporter node_modules/jshint-stylish/stylish.js"
+  },
+  "keywords": [
+    "koa",
+    "koars",
+    "sass"
+  ],
+  "author": "Florian Albertz",
+  "license": "BSD-3",
+  "jshintConfig": {
+    "node": true,
+    "mocha": true,
+    "esnext": true
+  }
+}
