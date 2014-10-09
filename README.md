@@ -1,5 +1,7 @@
 koars-sass
 ==========
+[![Build Status](https://img.shields.io/travis/koars/sass.svg?style=flat)](https://travis-ci.org/koars/sass)
+
 This module provides koa middleware to compile and serve sass/scss files.
 
 The following will serve the compiled contents of `sass/index.scss` on every route.
